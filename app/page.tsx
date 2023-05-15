@@ -18,7 +18,7 @@ export default function Home() {
               </div>
             </div>
           </span>
-          <p className='text-4xl'>Frontend Developer</p>
+          <p className='text-4xl text-emerald-200 sm:text-emerald-950'>Frontend Developer</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
