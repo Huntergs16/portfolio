@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="from-emerald-700 to-emerald-200 bg-gradient-to-tr sm:bg-gradient-conic min-h-screen overflow-hidden flex p-2 sm:px-36 sm:py-28 font-mono">
+    <main className="from-emerald-700 to-emerald-200 bg-gradient-to-tr sm:bg-gradient-conic min-h-screen overflow-hidden flex flex-col sm:flex-row p-4 sm:px-36 sm:py-28 font-mono">
       <div className='sm:border-white flex flex-col sm:flex-row sm:border-solid sm:border-8 min-h-full min-w-full bg-transparent p-12 justify-center gap-4 sm:gap-8'>
         <div className='sm:w-1/2 h-min text-emerald-950 font-semibold flex flex-col gap-6 sm:gap-12'>
           <span className='flex flex-col sm:flex-row items-center gap-2 sm:gap-10'>
@@ -49,7 +49,9 @@ export default function Home() {
             </div>
         </div>
       </div>
-          <p className='fixed mx-[30%] sm:m-0 sm:right-52 bottom-2 sm:bottom-10 text-xl opacity-80'>©2023 Hunter Samoy</p>
+      <div className='flex w-full justify-center sm:absolute sm:bottom-12 sm:right-48 sm:w-max'>
+        <p className='opacity-90 text-lg'>©2023 Hunter Samoy</p>
+      </div>
     </main>
   )
 }
