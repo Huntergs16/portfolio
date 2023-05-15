@@ -3,18 +3,18 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="from-emerald-700 to-emerald-200 bg-gradient-to-tr sm:bg-gradient-conic min-h-screen w-[100vw] flex p-4 sm:px-36 sm:py-28 font-mono">
-      <div className='sm:border-white flex flex-col sm:flex-row sm:border-solid sm:border-8 min-h-full w-full bg-transparent  p-12 justify-center gap-8'>
-        <div className='sm:w-1/2 h-min text-emerald-950 font-semibold flex flex-col gap-12'>
-          <span className='flex items-center gap-10 '>
+    <main className="from-emerald-700 to-emerald-200 bg-gradient-to-tr sm:bg-gradient-conic min-h-screen overflow-hidden flex p-2 sm:px-36 sm:py-28 font-mono">
+      <div className='sm:border-white flex flex-col sm:flex-row sm:border-solid sm:border-8 min-h-full min-w-full bg-transparent p-12 justify-center gap-4 sm:gap-8'>
+        <div className='sm:w-1/2 h-min text-emerald-950 font-semibold flex flex-col gap-6 sm:gap-12'>
+          <span className='flex items-center gap-2 sm:gap-10'>
             <p className='text-7xl'>Hunter Samoy</p>
             <div className='group/profile flex items-center gap-6 px-8'>
-              <div className="w-40 h-40 rounded-full overflow-hidden bg-gradient-to-tl from-emerald-700 to-emerald-200 z-10">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden bg-gradient-to-tl from-emerald-700 to-emerald-200 z-10">
                 <Image className="w-full h-full object-cover" src={'/headshot-removebg-preview.png'} alt={'Hunter'} width={200} height={200} />
               </div>
-              <div className='flex gap-4 text-lg -translate-x-[11.5rem] opacity-0 group-hover/profile:translate-y-24 sm:group-hover/profile:translate-x-0 group-hover/profile:opacity-100 transition-all duration-800 ease-in-out'>
-                <Link className='cursor-pointer hover:opacity-40' href={'https://www.linkedin.com/in/hunter-samoy/'} target='_blank'>LinkedIn</Link> 
-                <Link className='cursor-pointer hover:opacity-40' href={'https://github.com/Huntergs16'} target='_blank'>Github</Link>
+              <div className='flex gap-4 text-lg -translate-x-[10.4rem] opacity-0 group-hover/profile:translate-y-20 sm:group-hover/profile:translate-y-0 sm:group-hover/profile:translate-x-0 group-hover/profile:opacity-100 transition-all duration-800 ease-in-out'>
+                <Link className='cursor-pointer hover:text-emerald-700' href={'https://www.linkedin.com/in/hunter-samoy/'} target='_blank'>LinkedIn</Link> 
+                <Link className='cursor-pointer hover:text-emerald-700' href={'https://github.com/Huntergs16'} target='_blank'>Github</Link>
               </div>
             </div>
           </span>
@@ -25,9 +25,9 @@ export default function Home() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
           </p>
         </div>
-        <div className='sm:w-1/2 h-full flex flex-col justify-center items-center text-emerald-950 group/projects place-self-center'>
-          <div className='flex flex-col sm:items-center group/projects sm:h-2/3 justify-end'>
-            <p className='text-4xl text-emerald-200 sm:text-emerald-950 font-extrabold mb-6'>Projects</p>
+        <div className='sm:w-1/2 h-full sm:h-min flex flex-col justify-start items-center text-emerald-950 group/projects place-self-center sm:px-32'>
+          <div className='flex flex-col sm:items-center group/projects sm:h-2/3 justify-start'>
+            <p className='text-3xl text-emerald-200 sm:text-emerald-950 font-extrabold mb-6'>Projects</p>
             <ul className='text-xl flex flex-col gap-4 items-center justify-center'>
                 <li className='font-bold group/tala cursor-pointer'>
                   <p  className='text-2xl group-hover/tala:text-emerald-700'>Tala</p>
@@ -47,7 +47,7 @@ export default function Home() {
                   </li>
               </ul>
             </div>
-          <p className='mt-auto text-xl font-semibold'>©2023 Hunter Samoy</p>
+          {/* <p className='mt-auto text-xl font-semibold'>©2023 Hunter Samoy</p> */}
         </div>
       </div>
     </main>
