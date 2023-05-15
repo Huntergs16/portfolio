@@ -4,26 +4,28 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="from-emerald-700 to-emerald-200 bg-gradient-to-tr sm:bg-gradient-conic min-h-screen overflow-hidden flex flex-col sm:flex-row p-4 sm:px-36 sm:py-28 font-mono">
-      <div className='sm:border-white flex flex-col sm:flex-row sm:border-solid sm:border-8 min-h-full min-w-full bg-transparent p-12 justify-center gap-4 sm:gap-8'>
-        <div className='sm:w-1/2 h-min text-emerald-950 font-semibold flex flex-col gap-6 sm:gap-12'>
-          <span className='flex flex-col sm:flex-row items-center gap-2 sm:gap-10'>
-            <p className='text-6xl sm:text-7xl'>Hunter Samoy</p>
+      <div className='sm:border-white flex flex-col sm:flex-row sm:border-solid sm:border-8 min-h-full min-w-full bg-transparent px-6 py-12 justify-center gap-4 sm:gap-8'>
+        <div className='sm:w-1/2 h-min text-emerald-950 font-semibold flex flex-col gap-12'>
+          <span className='flex flex-col sm:flex-row items-center gap-6 sm:gap-10'>
+            <p className='text-4xl sm:text-7xl'>Hunter Samoy</p>
             <div className='group/profile flex items-center gap-6 px-8 justify-center'>
               <div className="w-44 h-44 rounded-full overflow-hidden bg-gradient-to-tl from-emerald-700 to-emerald-200 z-10">
                 <Image className="w-full h-full object-cover" src={'/headshot-removebg-preview.png'} alt={'Hunter'} width={200} height={200} />
               </div>
-              <div className='absolute gap-4 text-lg sm:-translate-x-[10.4rem] opacity-0 group-hover/profile:translate-y-20 sm:group-hover/profile:translate-y-0 sm:group-hover/profile:translate-x-0 group-hover/profile:opacity-100 transition-all duration-800 ease-in-out'>
+              <div className='absolute gap-4 text-lg sm:-translate-x-[10.4rem] opacity-0 group-hover/profile:translate-y-28 sm:group-hover/profile:translate-y-0 sm:group-hover/profile:translate-x-0 group-hover/profile:opacity-100 transition-all duration-800 ease-in-out'>
                 <Link className='cursor-pointer hover:text-emerald-700 mr-4' href={'https://www.linkedin.com/in/hunter-samoy/'} target='_blank'>LinkedIn</Link> 
                 <Link className='cursor-pointer hover:text-emerald-700' href={'https://github.com/Huntergs16'} target='_blank'>Github</Link>
               </div>
             </div>
           </span>
-          <p className='text-3xl text-emerald-200 sm:text-emerald-950'>Frontend Developer</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
-          </p>
+          <div className='flex flex-col gap-4'>
+            <p className='text-2xl sm:text-3xl text-emerald-200 sm:text-emerald-950'>Frontend Developer</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
+            </p>
+          </div>
         </div>
         <div className='sm:w-1/2 h-full sm:h-min flex flex-col justify-start items-center text-emerald-950 group/projects place-self-center sm:px-32'>
           <div className='flex flex-col sm:items-center group/projects sm:h-2/3 justify-start'>
