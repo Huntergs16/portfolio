@@ -18,8 +18,8 @@ export default function Home() {
               </div>
             </div>
           </span>
-          <div className='flex flex-col gap-4'>
-            <p className='text-2xl sm:text-3xl text-emerald-200 sm:text-emerald-950'>Frontend Developer</p>
+          <div className='flex flex-col gap-14'>
+            <p className='place-self-center sm:place-self-start text-2xl sm:text-3xl text-emerald-200 sm:text-emerald-950'>Frontend Developer</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima ad mollitia. Inventore vero dicta dolores! Adipisci animi in quaerat quasi esse maiores distinctio pariatur quisquam, aperiam dolorem, et sequi!
